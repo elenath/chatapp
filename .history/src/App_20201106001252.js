@@ -29,6 +29,9 @@ class Room extends Component {
             started: false,
         };
 
+        // this.changeStatus = this.changeStatus.bind(this);
+        // this.seatChanged = this.seatChanged.bind(this);
+        this.tick = this.tick.bind(this);
     }
 
     checkIfThereIsOpenSeat() {}
