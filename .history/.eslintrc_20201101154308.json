@@ -1,0 +1,50 @@
+{
+    "extends": "eslint:recommended",
+    "globals": {
+        "moment": true,
+        "jquery": true,
+        "$": true,
+        "Q": true,
+        "_": true,
+        "LZString": true,
+        "Handlebars": true,
+        "sprintf": true,
+        "chrome": true,
+        "Ext": true,
+
+        "crawler": true,
+        "crawlerLogger": true,
+        "utils": true,
+        "i18n": true,
+        "urls": true,
+        "backgroundApi": true,
+        "EventBusProvider": true,
+        "CrawlerEventType": true,
+        "runtimeDataHolder": true,
+        "remote": true,
+        "browser": true,
+        "browser2": true
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": ["warn", 4, { "SwitchCase": 1 }],
+        "func-names": ["error", "never"],
+        "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
+        "no-eq-null": "warn",
+        "no-trailing-spaces": [2],
+        "semi": [1],
+        "no-control-regex": 0,
+        "no-useless-escape": 0,
+        "valid-jsdoc": 0,
+        "no-prototype-builtins": "off",
+        "require-atomic-updates": "off"
+    }
+}
